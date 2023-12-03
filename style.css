@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header.jpg);
+    background-size:cover;
+    height: 696px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    display: flexbox;
+    justify-content: space-between;
+    padding: 2% 12%;
+}
+.logo-img{
+    max-width: 9.25rem;
+    height: auto;
+}
+@media screen and (max-width: 959.98px){
+    .logo-img {
+        width: 5.5625rem;
+        height: 1.5rem;
+    } 
+}
+.lang-sym{
+    position: absolute;
+    margin: 8px 2px 10px 8px;
+}
+.lang{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    padding: 6px 8px 6px 24px;
+    border-radius: 4px;
+    align-items: center;
+}
+.Sign{
+    background-color: rgb(250, 8, 8);
+    color: white;
+    font-weight: 600;
+    padding: 6px 18px 6px 18px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+}
+.title1{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    text-align: center;
+}
+.Laughter{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.Endless{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.Ready{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.email{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgba(245, 245, 245, 0.678);
+    width: 300px;
+    height: 44px;
+    color: white;
+}
+.card1, .card2, .card3, .card4{
+    border-top: 8px solid rgba(255, 255, 255, 0.379);
+    width: 100%;
+    height: 600px;
+    padding: 5% 0;
+}
+.card1{
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+    text-align: left;
+}
+.text1{
+    padding-left: 30%;
+    padding-top: 30%;
+}
+.main h1{
+    font-weight: 700;
+}
+.main p{
+    font-size: large;
+}
+.image1{
+    position: relative;
+    width: 500px;
+    height: auto;
+    z-index: 0;
+}
+.video1{
+    position: absolute;
+    width: 363px;
+    height: auto;
+    right: 12.65rem;
+    top: 52.9rem;
+    z-index: -1;
+}
+.card2{
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+}
+.image2{
+    width: 600px;
+    padding-left: 25%;
+    padding-top: 10%;
+    position: relative;
+}
+.image2b{
+    height: 5.5rem;
+}
+.pic2b{
+    border: 2px solid rgba(255, 255, 255, 0.53);
+    border-radius: 15px;
+    background-color: black;
+    width: 21rem;
+    height: 7.3rem;
+    display: inline-grid;
+    grid-template-columns: 30% 60% 10%;
+    padding: 0.4rem;
+    position: absolute;
+    left: 13rem;
+    top: 102.5rem;
+}
+.download{
+    padding-top: 1.5rem;
+}
+.pic2b h5{
+    margin-bottom: 0;
+}
+.pic2b p{
+    color: rgba(0, 0, 255, 0.95);
+}
+.text2{
+    padding-right: 30%;
+    padding-top: 30%;
+}
+.card3{
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 10%s;
+}
+.text3{
+    padding-left: 25%;
+    padding-top: 30%;
+}
+.image3{
+    position: relative;
+    width: 500px;
+    height: auto;
+    z-index: 0;
+}
+.video3{
+    position: absolute;
+    width: 312px;
+    height: auto;
+    right: 13.7rem;
+    top: 125rem;
+    z-index: -1;
+}
+.card4{
+    display: inline-grid;
+    grid-template-columns: 50% 45%;
+    text-align: left;
+}
+.image4{
+    width: 600px;
+    padding-left: 25%;
+    padding-top: 16%;
+}
+.text4{
+    padding-right: 30%;
+    padding-top: 30%;
+}
+.faq{
+    text-align: center;
+    border-top: 8px solid rgba(255, 255, 255, 0.379);
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+}
+.faq h2{
+    text-align: center;
+    font-weight: bold;
+}
+.faq p{
+    padding-top: 1.2rem;
+}
+.accordion{
+    padding-top: 1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ques, .ans{
+    background-color: rgb(57, 56, 56);
+    color: white;
+}
+.ques:active{
+    background-color: rgb(57, 56, 56);
+}
+footer{
+    border-top: 8px solid rgba(255, 255, 255, 0.379);
+    width: 100%;
+    height: auto;
+    padding: 5% 5% 0 8%;
+}
+.links{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 2rem 0 0 0 ;
+}
+a{
+    color: white;
+}
+footer h6, .end-lang, small{
+    padding-left: 2rem;
+}
+.end-lang{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+small{
+    color: rgba(255, 255, 255, 0.676);
+}
